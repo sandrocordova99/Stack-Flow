@@ -1,0 +1,80 @@
+div {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centrar el texto en todo el contenido del div */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Asegura que el texto del botón esté centrado */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: center; /* Centrar el texto en la tabla */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center; /* Centrar el texto dentro de las celdas */
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centrar el contenido de la lista */
+}
+
+ul li {
+    background-color: #f9f9f9;
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 4px;
+    text-align: center; /* Centrar el texto en cada elemento de la lista */
+}
+
+ul li:hover {
+    background-color: #ececec;
+}
+
+td button {
+    margin-right: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center; /* Centrar el texto dentro del botón */
+}
+
+td button:hover {
+    background-color: #007bb5;
+}
